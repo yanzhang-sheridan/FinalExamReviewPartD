@@ -13,11 +13,11 @@ import java.util.ArrayList;
  */
 public class Pizza 
 {
-    private int bakeTemp;//temp to bake at
+    private int bakeTemp = 100;//temp to bake at
     private ArrayList<String> ingredients = new ArrayList();
    
     public Pizza(){
-       this(100);
+       //this(100);
     }
     
     public Pizza(int temp){

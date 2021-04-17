@@ -10,6 +10,9 @@ package pizzashop;
  */
 public class CheesePizza extends Pizza
 {
+    public CheesePizza(){
+    }
+    
     public CheesePizza(int temp)
     {
       super(temp);

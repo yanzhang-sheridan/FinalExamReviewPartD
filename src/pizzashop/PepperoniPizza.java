@@ -15,6 +15,9 @@ package pizzashop;
  */
 public class PepperoniPizza extends CheesePizza 
 {
+    public PepperoniPizza(){
+        
+    }
     public PepperoniPizza(int temp)
     {
         super(temp);
